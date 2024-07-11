@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Website</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="shortcut icon" href="restaurant-logo.jpg" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!-- header section starts      -->
+
+    <header>
+      <a href="https://vishwaniketan.edu.in/" class="logo"
+        ><i class="fas fa-utensils"></i>Shetty Cafeteria</a
+      >
+
+      <nav class="navbar">
+        <a class="active" href="#home">home</a>
+        <a href="#dishes">dishes</a>
+        <a href="#about">about</a>
+        <a href="page.html">menu</a>
+        <a href="#review">review</a>
+        <a href="#order">order</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#review" class="fas fa-heart"></a>
+        <a href="#order" class="fas fa-shopping-cart" id="cart-icon"></a>
+      </div>
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- search form  -->
+
+    <form action="" id="search-form">
+      <input
+        type="search"
+        placeholder="search here..."
+        name=""
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Enjoy Delicious Food in Your Healthy Life.</h3>
+        <p>
+          Food is one of the basic necessities of life, and it contains
+          nutrients that are essential for the growth, repair, and maintenance
+          of body tissues and for the regulation of vital processes1. Healthy
+          food provides us the nutrients and energy to develop and grow, be
+          active and healthy, to move, play, work, think and learn.
+        </p>
+        <a href="#order" class="btn">order now</a>
+      </div>
+
+      <div class="image">
+        <img src="CanteenTV.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- dishes section starts  -->
+
+    <section class="dishes" id="dishes">
+      <h3 class="sub-heading">our dishes</h3>
+      <h1 class="heading">Signature</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <a href="#review" class="fas fa-heart"></a>
+          <a href="#about" class="fas fa-eye"></a>
+          <img src="vegbiryani.jpg" alt="" />
+          <h3>Veg Biryani</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span>₹90.00</span>
+          <a href="#order" class="btn">Code: N17 </a>
+        </div>
+
+        <div class="box">
+          <a href="#review" class="fas fa-heart"></a>
+          <a href="#about" class="fas fa-eye"></a>
+          <img src="vegnoodles.jpg" alt="" />
+          <h3>Veg Noodles</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span>₹70.00</span>
+          <a href="#order" class="btn">Code: N35 </a>
+        </div>
+
+        <div class="box">
+          <a href="#review" class="fas fa-heart"></a>
+          <a href="#about" class="fas fa-eye"></a>
+          <img src="misal pav.webp" alt="" />
+          <h3>Misal Pav</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span>₹35.00</span>
+          <a href="#order" class="btn">Code: N04</a>
+        </div>
+
+        <div class="box">
+          <a href="#review" class="fas fa-heart"></a>
+          <a href="#about" class="fas fa-eye"></a>
+          <img src="puribhaji.webp" alt="" />
+          <h3>Puri Bhaji</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span>₹35.00</span>
+          <a href="#order" class="btn">Code: N05</a>
+        </div>
+
+        <div class="box">
+          <a href="#review" class="fas fa-heart"></a>
+          <a href="#about" class="fas fa-eye"></a>
+          <img src="paneermasala.jpg" alt="" />
+          <h3>paneer butter masala</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span>₹90.00</span>
+          <a href="#order" class="btn">Code: N23</a>
+        </div>
+
+        <div class="box">
+          <a href="#review" class="fas fa-heart"></a>
+          <a href="#about" class="fas fa-eye"></a>
+          <img src="jeerarice.jpg" alt="" />
+          <h3>Jeera Rice</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span>₹40.00</span>
+          <a href="#order" class="btn">Code: N21</a>
+        </div>
+
+        <div class="box">
+          <a href="#review" class="fas fa-heart"></a>
+          <a href="#about" class="fas fa-eye"></a>
+          <img src="idlisambar.jpg" alt="" />
+          <h3>Idli-Sambhar</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span>₹30.00</span>
+          <a href="#order" class="btn">Code: N06</a>
+        </div>
+
+        <div class="box">
+          <a href="#review" class="fas fa-heart"></a>
+          <a href="#about" class="fas fa-eye"></a>
+          <img src="samosa.jpg" alt="" />
+          <h3>Samosa</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span>₹13.00</span>
+          <a href="#order" class="btn">Code: N02</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- dishes section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <h3 class="sub-heading">about us</h3>
+      <h1 class="heading">why choose us?</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="inside1.jpg" height="600" width="200" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>Best food in the Area</h3>
+          <p>
+            Fresh and Locally-Sourced Ingredients: We prioritize quality and
+            source our ingredients locally whenever possible. This not only
+            supports local farmers and businesses but also ensures that you're
+            getting the freshest, highest-quality meals.
+          </p>
+          <p>
+            Affordable Pricing: We believe that good food shouldn't break the
+            bank. Our pricing is competitive and designed to be accessible to
+            all students, ensuring that you can enjoy a satisfying meal without
+            compromising your budget.
+          </p>
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-dollar-sign"></i>
+              <span>easy payments</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-headset"></i>
+              <span>Open 9am-10pm</span>
+            </div>
+          </div>
+          <a href="https://vishwaniketan.edu.in/" class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- menu section starts  -->
+
+    <section class="menu" id="menu">
+      <h3 class="sub-heading">our menu</h3>
+      <h1 class="heading">today's speciality</h1>
+
+      <div class="food-items">
+        <div class="item">
+          <div>
+            <img src="chickenfrankie.jpg" alt="food item" />
+          </div>
+          <h3>Chicken Frankie</h3>
+
+          <button class="white_btn">Code: SP1</button>
+        </div>
+        <div class="item">
+          <div>
+            <img src="fries.jpg" alt="food item" />
+          </div>
+          <h3>French Fries</h3>
+
+          <button class="white_btn">Code: SP3</button>
+        </div>
+        <div class="item">
+          <div>
+            <img src="langolassi.jpg" alt="food item" />
+          </div>
+          <h3>Mango Lassai</h3>
+
+          <button class="white_btn">Code: SP2</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- menu section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+      <h3 class="sub-heading">customer's review</h3>
+      <h1 class="heading">what they say</h1>
+
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic-1.png" alt="" />
+              <div class="user-info">
+                <h3>Anna</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Amaazing food! The whole experience from start to finish is great
+              waitress is always so friendly and kind. The food can’t get better
+              and the prices are fair for the portion size. Always a great spot
+              to get great food.
+            </p>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic-2.png" alt="" />
+              <div class="user-info">
+                <h3>Anna</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Amaazing food! The whole experience from start to finish is great
+              waitress is always so friendly and kind. The food can’t get better
+              and the prices are fair for the portion size. Always a great spot
+              to get great food.
+            </p>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic-3.png" alt="" />
+              <div class="user-info">
+                <h3>Anna</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Amaazing food! The whole experience from start to finish is great
+              waitress is always so friendly and kind. The food can’t get better
+              and the prices are fair for the portion size. Always a great spot
+              to get great food.
+            </p>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic-4.png" alt="" />
+              <div class="user-info">
+                <h3>Anna</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Amaazing food! The whole experience from start to finish is great
+              waitress is always so friendly and kind. The food can’t get better
+              and the prices are fair for the portion size. Always a great spot
+              to get great food.
+            </p>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic-5.png" alt="" />
+              <div class="user-info">
+                <h3>Anna</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Amaazing food! The whole experience from start to finish is great
+              waitress is always so friendly and kind. The food can’t get better
+              and the prices are fair for the portion size. Always a great spot
+              to get great food.
+            </p>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic-6.png" alt="" />
+              <div class="user-info">
+                <h3>Anna</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Amaazing food! The whole experience from start to finish is great
+              waitress is always so friendly and kind. The food can’t get better
+              and the prices are fair for the portion size. Always a great spot
+              to get great food.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- order section starts  -->
+
+    <section class="order" id="order">
+      <h3 class="sub-heading">order now</h3>
+
+      <!-- steps section starts  -->
+
+      <div class="step-container">
+        <section class="steps">
+          <div class="box">
+            <img src="images/step-1.jpg" alt="" />
+            <h3>choose your favorite food</h3>
+          </div>
+          <div class="box">
+            <img src="images/step-2.jpg" alt="" />
+            <h3>Your Order Ready in Few minutes</h3>
+          </div>
+          <div class="box">
+            <img src="images/step-3.jpg" alt="" />
+            <h3>easy payments methods</h3>
+          </div>
+          <div class="box">
+            <img src="images/step-4.jpg" alt="" />
+            <h3>and finally, enjoy your food</h3>
+          </div>
+        </section>
+      </div>
+
+      <!-- steps section ends -->
+
+      <div class="form-banner-wrapper form-banner-wrapper--original">
+        <div class="form-banner-left">
+          <section class="cg">
+            <h2 class="text">Order Now</h2>
+            <div class="form-banner-wrapper form-banner-wrapper--original">
+              <div class="form-banner-left">
+                <section class="cg">
+                  <form
+                    action="https://formsubmit.co/48fb9f20e221ec410a0742c289226775"
+                    method="POST"
+                  >
+                    <input
+                      type="text"
+                      name="Name"
+                      placeholder="Full Name"
+                      required
+                    />
+                    <input
+                      type="email"
+                      name="Email"
+                      placeholder="Email"
+                      required
+                    />
+                    <input
+                      type="number"
+                      name="Phone No"
+                      placeholder="Phone Number"
+                      required
+                    />
+                    <select name="At what time do you want">
+                      <option>At what time do you want</option>
+                      <option>With in 10 minutes</option>
+                      <option>With in 15 minutes</option>
+                      <option>With in 20 minutes</option>
+                      <option>With in 25 minutes</option>
+                      <option>With in 30 minutes</option>
+                      <option>With in 35 minutes</option>
+                      <option>With in 40 minutes</option>
+                      <option>With in 45 minutes</option>
+                    </select>
+                    <textarea
+                      name="Food Code "
+                      placeholder="Food Code"
+                      required
+                    ></textarea>
+
+                    <button type="submit">Submit</button>
+                  </form>
+                </section>
+              </div>
+                  
+            </div>
+          </section>
+        </div>
+            
+      </div>
+    </section>
+
+    <!-- order section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>locations</h3>
+          <a
+            href="https://www.google.co.in/maps/place/%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%A8%E0%A4%BF%E0%A4%95%E0%A5%87%E0%A4%A4%E0%A4%A8+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%AA%E0%A4%A8+%E0%A4%89%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%95%E0%A4%A4%E0%A4%BE+%E0%A4%86%E0%A4%A3%E0%A4%BF+%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%80+%E0%A4%A4%E0%A4%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8+%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE/@18.820721,73.2684932,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7e2b676c190e9:0xf77754195ba9b262!8m2!3d18.820721!4d73.2710681!16s%2Fg%2F12hsy0mrf?entry=ttu"
+            >Survey Nos: 52, 54, 55, 56, 57 Kumbhivali, Tal, Khalapur,
+            Maharashtra 410203</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#home">home</a>
+          <a href="#dishes">dishes</a>
+          <a href="#about">about</a>
+          <a href="#menu">menu</a>
+          <a href="#review">review</a>
+          <a href="#order">order</a>
+        </div>
+
+        <div class="box">
+          <h3>Contact Info</h3>
+          <a>(021) 1234567</a>
+          <a>0813 8591 2298</a>
+          <a href="">shettyanna88@gmail.com</a>
+          <a
+            href="https://www.google.co.in/maps/place/%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%A8%E0%A4%BF%E0%A4%95%E0%A5%87%E0%A4%A4%E0%A4%A8+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%AA%E0%A4%A8+%E0%A4%89%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%95%E0%A4%A4%E0%A4%BE+%E0%A4%86%E0%A4%A3%E0%A4%BF+%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%80+%E0%A4%A4%E0%A4%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8+%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE/@18.820721,73.2684932,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7e2b676c190e9:0xf77754195ba9b262!8m2!3d18.820721!4d73.2710681!16s%2Fg%2F12hsy0mrf?entry=ttu"
+            >ViMEET Khalapur 454644</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>Follow us</h3>
+          <a href="">Facebook</a>
+          <a href="">Instagram</a>
+          <a href="t">Twitter</a>
+          <a href="">Linkedin</a>
+        </div>
+      </div>
+
+      <div class="credit">Copyright @ 2023-24 by <span>BSCNK</span></div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- loader part  
+    <div class="loader-container">
+        <img src="C:\Users\SSGUGALE\Desktop\VAP\loader.gif" alt="">
+    </div>-->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="script2.js"></script>
+
+    <!-- Ketika Submit di klik,reset form,munculkan alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+      function myFunction() {
+        const swalWithBootstrapButtons = Swal.mixin({
+          customClass: {
+            cancelButton: "btn btn-danger",
+            confirmButton: "btn btn-success",
+          },
+          buttonsStyling: false,
+        });
+
+        swalWithBootstrapButtons
+          .fire({
+            title: "Are you sure?",
+            text: "please check your order again!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonText: "Yes, make an order!",
+            cancelButtonText: "No, cancel!",
+            reverseButtons: true,
+          })
+          .then((result) => {
+            if (result.isConfirmed) {
+              document.getElementById("myForm").reset();
+              swalWithBootstrapButtons.fire(
+                "Thank You!",
+                "We have received your order .",
+                "success"
+              );
+            } else if (result.dismiss === Swal.DismissReason.cancel) {
+              document.getElementById("myForm").reset();
+              swalWithBootstrapButtons.fire(
+                "Cancelled",
+                "Your order has been cancelled",
+                "error"
+              );
+            }
+          });
+      }
+    </script>
+  </body>
+</html>
